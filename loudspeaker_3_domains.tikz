@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+	% Paths, nodes and wires:
+	\draw (13.16, 2.4) to[european resistor, l={$Z_{af}$}] (14.96, 2.4);
+	\draw (0.96, 0.31) to[sinusoidal current source, l={$U_s$}] (0.96, 2.4);
+	\draw (0.96, 2.4) to[cute inductor, l={$L_{ec}$}] (2.96, 2.41);
+	\draw (2.96, 2.41) to[european resistor, l={$R_{ec}$}] (4.96, 2.4);
+	\node[gyrator, circuitikz/quadpoles style=inline] at (5.38, 1.35) {$B \ell$};
+	\draw (7.8, 2.4) to[cute inductor, l={$M_{ms}$}] (9.8, 2.4);
+	\draw (5.8, 2.4) to[european resistor, l={$R_{ms}$}] (7.8, 2.4);
+	\draw (9.86, 2.4) to[capacitor, l={$C_{ms}$}] (11.16, 2.4);
+	\node[transformer, cute] at (12.11, 1.35) {$S_d$};
+	\draw (13.06, 0.3) to[european resistor, l={$Z_{ar}$}] (14.96, 0.3);
+	\draw (11.06, 0.3) -| (5.8, 0.3) -| (5.8, 0.32);
+	\draw (4.96, 0.3) -| (0.96, 0.31);
+	\draw (14.96, 2.4) |- (14.96, 0.3);
+\end{tikzpicture}
