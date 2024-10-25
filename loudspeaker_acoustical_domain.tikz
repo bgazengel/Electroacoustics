@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+	% Paths, nodes and wires:
+	\draw (12.76, 2.6) to[european resistor, l={$Z_{af}$}] (15, 2.6);
+	\draw (5, 0.51) to[sinusoidal current source, l={$P_s$}] (5, 2.6);
+	\draw (5.4, 2.6) to[european resistor, l={$R_{ac}$}] (7.4, 2.6);
+	\draw (9.4, 2.6) to[cute inductor, l={$M_{as}$}] (11.4, 2.6);
+	\draw (7.4, 2.6) to[european resistor, l={$R_{as}$}] (9.4, 2.6);
+	\draw (11.4, 2.6) to[capacitor, l={$C_{as}$}] (12.76, 2.6);
+	\draw (12.8, 0.5) to[european resistor, l={$Z_{ar}$}] (15, 0.5);
+	\draw (5.5, 3.7) to[capacitor, l={$C_{ac}$}] (7.4, 3.7);
+	\draw (5, 2.6) -| (5.4, 2.7) |- (5.5, 3.7);
+	\draw (7.4, 3.7) -- (7.4, 2.6);
+	\draw (15, 2.6) -- (15, 0.5);
+	\draw (12.8, 0.5) -| (5, 0.51);
+\end{tikzpicture}
