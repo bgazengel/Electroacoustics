@@ -1,0 +1,197 @@
+[
+    {
+        "type": "path",
+        "id": "path_european-resistor",
+        "start": {
+            "x": 497.38531952755926,
+            "y": -90.70828267716534
+        },
+        "end": {
+            "x": 565.4171943307085,
+            "y": -90.70866141732283
+        },
+        "mirror": false,
+        "invert": false,
+        "label": "Z_{af}"
+    },
+    {
+        "type": "path",
+        "id": "path_sinusoidal-current-source",
+        "start": {
+            "x": 36.28333606299218,
+            "y": -11.716557559055104
+        },
+        "end": {
+            "x": 36.283336062992376,
+            "y": -90.70866141732283
+        },
+        "mirror": false,
+        "invert": false,
+        "label": "U_s"
+    },
+    {
+        "type": "path",
+        "id": "path_cute-inductor",
+        "start": {
+            "x": 36.28333606299237,
+            "y": -90.70866141732283
+        },
+        "end": {
+            "x": 111.87388724409452,
+            "y": -91.08663629921254
+        },
+        "mirror": false,
+        "invert": false,
+        "label": "L_{ec}"
+    },
+    {
+        "type": "path",
+        "id": "path_european-resistor",
+        "start": {
+            "x": 111.87388724409449,
+            "y": -91.08663629921254
+        },
+        "end": {
+            "x": 187.46443842519705,
+            "y": -90.70866141732283
+        },
+        "mirror": false,
+        "invert": false,
+        "label": "R_{ec}"
+    },
+    {
+        "type": "node",
+        "id": "node_gyrator_circuitikz-quadpoles-style-inline",
+        "position": {
+            "x": 203.33851842519698,
+            "y": -51.02381141732286
+        },
+        "rotation": 0,
+        "flip": {
+            "x": 1,
+            "y": 1
+        },
+        "label": "B \\ell"
+    },
+    {
+        "type": "path",
+        "id": "path_cute-inductor",
+        "start": {
+            "x": 294.80314960629926,
+            "y": -90.70866141732283
+        },
+        "end": {
+            "x": 370.3937007874016,
+            "y": -90.70866141732283
+        },
+        "mirror": false,
+        "invert": false,
+        "label": "M_{ms}"
+    },
+    {
+        "type": "path",
+        "id": "path_european-resistor",
+        "start": {
+            "x": 219.21259842519683,
+            "y": -90.70866141732283
+        },
+        "end": {
+            "x": 294.8031496062992,
+            "y": -90.70866141732283
+        },
+        "mirror": false,
+        "invert": false,
+        "label": "R_{ms}"
+    },
+    {
+        "type": "path",
+        "id": "path_capacitor",
+        "start": {
+            "x": 372.66128881889756,
+            "y": -90.70866141732283
+        },
+        "end": {
+            "x": 421.7951470866142,
+            "y": -90.70866141732283
+        },
+        "mirror": false,
+        "invert": false,
+        "label": "C_{ms}"
+    },
+    {
+        "type": "node",
+        "id": "node_transformer_cute",
+        "position": {
+            "x": 457.7004695275586,
+            "y": -51.023432677165374
+        },
+        "rotation": 0,
+        "flip": {
+            "x": 1,
+            "y": 1
+        },
+        "label": "S_d"
+    },
+    {
+        "type": "path",
+        "id": "path_european-resistor",
+        "start": {
+            "x": 493.6061707086618,
+            "y": -11.338582677165363
+        },
+        "end": {
+            "x": 565.4171943307086,
+            "y": -11.338582677165363
+        },
+        "mirror": false,
+        "invert": false,
+        "label": "Z_{ar}"
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 418.0156195275586,
+            "y": -11.33858267716537
+        },
+        "others": [
+            {
+                "x": 219.21259842519697,
+                "y": -11.338961417322857,
+                "dir": 1
+            },
+            {
+                "x": 219.2125984251969,
+                "y": -11.905545000000021,
+                "dir": 1
+            }
+        ]
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 187.464438425197,
+            "y": -11.338961417322857
+        },
+        "others": [
+            {
+                "x": 36.28333606299218,
+                "y": -11.716557559055104,
+                "dir": 1
+            }
+        ]
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 565.4171943307085,
+            "y": -90.70866141732283
+        },
+        "others": [
+            {
+                "x": 565.4171943307086,
+                "y": -11.338582677165363,
+                "dir": 2
+            }
+        ]
+    }
+]
